@@ -1,3 +1,2 @@
 # sosial-media
-Demo Jenkinsfile Build PHP Image docekr<br>
-Jenkins pipeline simple PHP app, see Jenkinsfile
+Demo Jenkinsfile pipeline Build PHP Image docker<br>
