@@ -13,4 +13,5 @@ Disini saya menggunakan versi: <br>
 - Jenkins 2.332.1
 
 # Referensi
-https://devopscube.com/docker-containers-as-build-slaves-jenkins/ <br>
+Use Docker Server As Build Slave Jenkins: https://devopscube.com/docker-containers-as-build-slaves-jenkins/ <br>
+Enable Docker Remote API : https://scriptcrunch.com/enable-docker-remote-api/
