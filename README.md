@@ -7,6 +7,11 @@ Adapun tahapan (CI) continuous integration sebagai berikut:<br>
 3.	Setelah melakukan build image Jenkins akan melakukan testing dengan cara menjalankan docker image ke dalam test server remote host. <br>
 4.	Kemudian image docker tersebut akan dipush kedalam registry docker hub. <br>
 
+# Notes
+Disini saya menggunakan versi: <br>
+- Docker version 20.10.14, build a224086
+- Jenkins 2.332.1
+
 # Referensi
 https://medium.com/xebia-engineering/using-docker-containers-as-jenkins-build-slaves-a0bb1c9190d <br>
 https://faun.pub/docker-build-push-with-declarative-pipeline-in-jenkins-2f12c2e43807
