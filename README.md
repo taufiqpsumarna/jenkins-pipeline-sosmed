@@ -13,9 +13,9 @@ Disini saya menggunakan versi: <br>
 - Jenkins 2.332.1 with Docker plugin
 
 ### Prerequisite:
-- Jenkins should be installed with docker
-- SSH setup between Jenkins and the remote server
-- Docker should be installed on the server where you need to run a container and the user should be added to the docker group
+- Jenkins should be installed
+- SSH setup between Jenkins and the docker remote server
+- Docker should be installed on the server where you need to run a container and the user should be added to the docker group (sudo usermod -aG docker jenkins)
 - Setup SSH between Github and Jenkins if you want to use the SSH url instead of https url of your git repo
 - Docker Pipeline Plugin
 - Setup Jenkins Credential for dockerhub account
