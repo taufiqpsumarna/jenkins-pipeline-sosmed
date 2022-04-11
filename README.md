@@ -1,4 +1,4 @@
-# sosial-media
+# jenkins-pipeline-sosmed
 Demo Jenkinsfile pipeline Build PHP Image docker<br>
 
 Adapun tahapan (CI) continuous integration sebagai berikut:<br>
