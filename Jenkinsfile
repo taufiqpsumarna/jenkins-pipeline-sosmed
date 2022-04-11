@@ -30,8 +30,8 @@ pipeline {
             }
         }
  stage('Run Docker container on remote hosts') {
-             
-            steps {\\Remote execution
+            //Replace with remote host 
+     steps {
                 sh "docker -H ssh://ubuntu@172.31.10.215 run -d -p 8081:80 taufiq14s/pipeline-sosmed"
  
             }
