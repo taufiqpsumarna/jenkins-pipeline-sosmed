@@ -10,7 +10,7 @@ Adapun tahapan (CI) continuous integration sebagai berikut:<br>
 # Notes
 Disini saya menggunakan versi: <br>
 - Docker version 20.10.14, build a224086
-- Jenkins 2.332.1
+- Jenkins 2.332.1 with Docker plugin
 
 # Referensi
 Use Docker Server As Build Slave Jenkins: https://devopscube.com/docker-containers-as-build-slaves-jenkins/ <br>
