@@ -1,7 +1,7 @@
 pipeline {
     agent any
  stages {
-  stage('Docker Build and Tag') {
+  stage('🐳 Docker Build and Tag 🏷️') {
            steps {
               
                 sh 'docker build -t pipeline-sosmed:latest .' 
@@ -11,7 +11,7 @@ pipeline {
           }
         }
      
-  stage('Publish image to Docker Hub') {
+  stage('➡️ Publish image to Docker Hub') {
           
             steps {
         withDockerRegistry([ credentialsId: "dockerHub", url: "" ]) {
@@ -22,14 +22,7 @@ pipeline {
           }
         }
      
-      stage('Run Docker container on Jenkins Agent') {
-             
-            steps {
-                sh "docker run -d -p 8081:80 taufiq14s/pipeline-sosmed"
- 
-            }
-        }
- stage('Run Docker container on remote hosts') {
+ stage('🏃‍♂️ Run Docker container on remote hosts') {
             //Replace with remote host 
      steps {
             sh "docker -H ssh://ubuntu@172.31.10.215 rm container sosmed-dev -f"     // Remove old container named sosmed-dev
