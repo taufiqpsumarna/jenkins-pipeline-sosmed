@@ -13,6 +13,6 @@ Disini saya menggunakan versi: <br>
 - Jenkins 2.332.1
 
 # Referensi
-https://medium.com/xebia-engineering/using-docker-containers-as-jenkins-build-slaves-a0bb1c9190d (Depreciated Docker V18) <br>
+https://devopscube.com/docker-containers-as-build-slaves-jenkins/ <br>
 https://devops4solutions.com/integrate-jenkins-with-docker/ <br>
 https://faun.pub/docker-build-push-with-declarative-pipeline-in-jenkins-2f12c2e43807
