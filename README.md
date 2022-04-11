@@ -14,5 +14,3 @@ Disini saya menggunakan versi: <br>
 
 # Referensi
 https://devopscube.com/docker-containers-as-build-slaves-jenkins/ <br>
-https://devops4solutions.com/integrate-jenkins-with-docker/ <br>
-https://faun.pub/docker-build-push-with-declarative-pipeline-in-jenkins-2f12c2e43807
