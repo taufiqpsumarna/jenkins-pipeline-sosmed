@@ -14,4 +14,5 @@ Disini saya menggunakan versi: <br>
 
 # Referensi
 Use Docker Server As Build Slave Jenkins: https://devopscube.com/docker-containers-as-build-slaves-jenkins/ <br>
-Enable Docker Remote API : https://scriptcrunch.com/enable-docker-remote-api/
+<b> Enable Docker Remote API : </b> https://scriptcrunch.com/enable-docker-remote-api/
+<b> Jenkins pipeline with docker: </b> https://devops4solutions.com/publish-docker-image-to-dockerhub-using-jenkins-pipeline/
