@@ -12,6 +12,14 @@ Disini saya menggunakan versi: <br>
 - Docker version 20.10.14, build a224086
 - Jenkins 2.332.1 with Docker plugin
 
+### Prerequisite:
+- Jenkins should be installed
+- SSH setup between Jenkins and the remote server
+- Docker should be installed on the server where you need to run a container and the user should be added to the docker group
+- Setup SSH between Github and Jenkins if you want to use the SSH url instead of https url of your git repo
+- Docker Pipeline Plugin
+- Setup Jenkins Credential for dockerhub account
+
 # Referensi
 Use Docker Server As Build Slave Jenkins: https://devopscube.com/docker-containers-as-build-slaves-jenkins/ <br>
 <b> Enable Docker Remote API : </b> https://scriptcrunch.com/enable-docker-remote-api/ <br>
