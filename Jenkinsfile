@@ -6,7 +6,7 @@ pipeline {
               
                 sh 'docker build -t pipeline-sosmed:latest .' 
                   sh 'docker tag pipeline-sosmed taufiq14s/pipeline-sosmed:latest'
-                sh 'docker tag pipeline-sosmed taufiq14s/pipeline-sosmed:latest:$BUILD_NUMBER'
+                sh 'docker tag pipeline-sosmed taufiq14s/pipeline-sosmed:$BUILD_NUMBER'
                
           }
         }
